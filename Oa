@@ -1268,4 +1268,5 @@ function RilzHub:AddButton(p,t,btype)      addButton(p,t,btype)                 
 function RilzHub:AddSection(p,text)        Sec(p,text)                             end
 function RilzHub:AddDivider(p)             Div(p)                                  end
 
+_G.RilzHub = RilzHub
 return RilzHub
